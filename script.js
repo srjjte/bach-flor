@@ -1,351 +1,629 @@
 const flowers = [
     {
-        name: "Rock Rose (Helianthemum)",
+        name: "Rock rose  (no puedo, me da pánico hacer...)",
         emotions: [
-            "pánico",
+            "Pánico paralizante",
+            "estados de inconciencia y coma",
+            "síndrome de abstinencia en algunas drogas",
+            "pesadillas",
+            "pánico escénico",
             "ansiedad",
             "ataques de pánico",
             "fobias",
             "miedo en animales y niños"
         ],
-        description: "Rock Rose es útil para aquellos que experimentan pánico extremo, ataques de pánico, ansiedad, fobias o miedo intenso en animales y niños. Es especialmente beneficioso en situaciones de emergencia."
+        description: "Pánico ante cosas rutinarias que evita que hagamos algo que normalmente haríamos, ( manejar, volar, cruzar la calle, un animal no peligroso etc.)"
     },
     {
-        name: "Mimulus (Mímulo)",
+        name: "Mimulus  (tengo miedo a… )",
         emotions: [
-            "miedo",
-            "temor al hablar en público",
+            "Enuresis",
+            "miedo a ser avergonzados o juzgados por los demás",
+            "niños distraídos",
+            "sentimiento de inferioridad, inutilidad, idiotez al escucharse y observarse ellos mismos",
+            "delirio de persecución",
+            "preocupación permanente",
+            "temor al hablar en publico",
             "temor a animales",
             "miedo al rechazo"
         ],
-        description: "Mimulus es para personas que sufren de miedos conocidos, como el miedo a hablar en público, a los animales o al rechazo. Ayuda a enfrentar los temores cotidianos con coraje."
+        description: "Miedo no paralizante que nos acompaña mientras realizamos cosas que comúnmente haríamos tranquilamente (manejar, volar, cruzar la calle etc.) Miedo del cual se conoce a que se le teme y la razón de por qué se le teme."
     },
     {
-        name: "Cherry Plum (Cerasifera)",
+        name: "Cherry plum (me estoy volviendo loco)",
         emotions: [
-            "miedo a perder el control",
-            "impulsos agresivos",
+            "Miedo a volverse loco",
+            "a hacer algo indebido ",
+            "intentos de suicidio",
+            "impulsos de hacer daño o hacerse daño a si mismo (aventarse del carro, matar a alguien, etc.)",
+            "agresividad",
             "intentos de suicidio",
             "bulimia",
-            "anorexia"
+            "anorexia",
+            "actitudes compulsivas (comprar, robar, comer, tomar, etc.)",
+            "psicosis",
+            "esquizofrenia"
         ],
-        description: "Cherry Plum está indicado para aquellos que temen perder el control mental o emocional, teniendo impulsos agresivos o tendencias suicidas. También se utiliza en casos de bulimia y anorexia."
+        description: "Miedo a perder el control o pérdida de control en cualquier manifestación (física, mental, emocional o conductual)"
     },
     {
-        name: "Aspen (Álamo temblón)",
+        name: "aspen (tengo temor a no sé qué)",
         emotions: [
-            "miedo a lo desconocido",
+            "Miedos sin causa ni efecto",
+            "miedo a lo sobrenatural",
             "angustia inexplicable",
             "ansiedad inexplicable"
         ],
-        description: "Aspen es para miedos y ansiedades vagos y desconocidos. Es útil para aquellos que sienten angustia o ansiedad sin una causa aparente."
+        description: "Miedo a lo desconocido, o miedo sin saber por qué se le teme a algo. Es un protector del campo astral."
     },
     {
-        name: "Red Chestnut (Castaño Rojo)",
+        name: "Red chestnut (y si le pasa algo a…)",
         emotions: [
-            "miedo por seres queridos",
-            "preocupación en exceso",
-            "personas posesivas"
+            "Temor de que a un ser querido le ocurra la misma desgracia que a otro",
+            "personas posesivas por miedo a despegarse del ser querido y que le ocurra algo malo",
+            "padres sobreprotectores por miedo a dejar en peligro a sus hijos",
+            "salvadores del mundo",
+            "personas que se contagian de los sentimientos ajenos"
         ],
-        description: "Red Chestnut es para aquellos que se preocupan excesivamente por el bienestar de sus seres queridos, temiendo constantemente por su seguridad. Es útil para personas posesivas."
+        description: "Miedo a lo que le pueda ocurrir a los seres queridos, preocupación en exceso por los demás."
     },
     {
-        name: "Cerato (Ceratostigma)",
+        name: "cerato (tú qué opinas)",
         emotions: [
-            "duda en sí mismo",
-            "falta de confianza en su juicio",
-            "dependencia en la opinión de otros"
+            "Inseguridad para emprender o decidir algoduda en sí mismo",
+            "inseguridad de si son buenos en algo",
+            "gente influenciable a caer en vicios o conductas destructivas",
+            "demasiada importancia por lo que los demás piensen"
         ],
-        description: "Cerato es para personas que dudan de sí mismas y de su propio juicio, que buscan constantemente la confirmación de otros. Ayuda a confiar en su intuición y juicio."
+        description: "Falta de confianza en sí mismos para tomar decisiones, necesitan el consejo o aprobación de alguien más para convencerse de que están bien. Gente que siempre pide el consejo de los demás antes de hacer algo."
     },
     {
-        name: "Scleranthus (Scleranthus annuus)",
+        name: "Scleranthus ( voy o no voy)",
         emotions: [
-            "indecisión",
-            "dificultad para elegir entre opciones",
-            "inestabilidad emocional"
+            "Gente indecisa",
+            "bipolaridad",
+            "pasar de diarrea a estreñimiento",
+            "gente extremista todo lo ve negro o blanco",
+            "menopausia",
+            "adolescencia",
+            "síndrome premenstrual",
+            "descoordinación (niños, ancianos)",
+            "infidelidad",
+            "emociones encontradas (si mejor no, te quiero, ya no. Voy , no voy etc.)",
+            "confusión"
         ],
-        description: "Scleranthus es útil para aquellos que sufren de indecisión y dificultad para elegir entre dos opciones. También ayuda a estabilizar las emociones."
+        description: "Dificultad para decidir entre 2 opciones, sin buscar consejo de los demás, ayuda a que todas las funciones se produzcan adecuadamente."
     },
     {
-        name: "Gentian (Genciana)",
+        name: "Gentian (no puedo, no resultará bien)",
         emotions: [
-            "desaliento",
-            "desánimo",
-            "falta de fe después de un contratiempo"
+            "Niños que se desaniman fácilmente",
+            "gente que se da por vencida ante una situación o enfermedad",
+            "gente que todo lo ve gris alta de fe después de un contratiempo",
+            "no creen que tengan solución",
+            "depresión",
+            "desanimo",
+            "gente que siempre espera lo peor",
+            "evitan hacer cosas por temor a que resulten mal"
         ],
-        description: "Gentian es para personas que se desaniman fácilmente después de un contratiempo o dificultad. Ayuda a recuperar la fe y la perseverancia."
+        description: "Pesimistas Para los que se desaniman fácilmente, pesimistas escépticos, negativos. Creen que todo lo que hagan le saldrá mal se desanima antes de hacerlo. Es bueno al final de un tratamiento."
     },
     {
-        name: "Gorse (Aulaga)",
+        name: "Gorse (ya nada puede mejorar)",
         emotions: [
-            "desesperanza",
-            "rendirse",
-            "sensación de no tener solución"
+            "Para gente que se resigna a vivir mal",
+            "creen que es lo que dios y el destino les preparo",
+            "gente que piensa que ya no puede hacer nada ante su situación",
+            "se preparan para sufrir",
+            "creen que ningún tratamiento medico resultara",
+            "falta de fé",
+            "enfermos de muerte resignados a morir Cansados de luchar"
         ],
-        description: "Gorse es para aquellos que han perdido la esperanza y se sienten desesperados, que han dejado de luchar porque creen que no hay solución. Ayuda a renovar la esperanza y la fuerza."
+        description: "Sin fe Falta de interés en el presente, para una enorme desesperanza, resignación."
     },
     {
-        name: "Hornbeam (Carpe)",
+        name: "Hornbeam (me da flojera mejor mañana)",
         emotions: [
-            "fatiga mental",
-            "cansancio ante la rutina",
-            "falta de motivación"
+            "Gente floja",
+            "deprimidos",
+            "cansancio antes de hacer cualquier cosa que no cause placer (bañarse, trabajar, etc.)",
+            "gente que no disfruta de sus labores",
+            "cansados de la rutina"
         ],
-        description: "Hornbeam es para la fatiga mental y la sensación de no tener energía suficiente para enfrentar el día. Es útil para aquellos que sienten que necesitan más fuerza para cumplir con sus deberes."
+        description: "Para los desganados, gente que se siente sin ánimos de levantarse o de vivir"
     },
     {
-        name: "Wild Oat (Avena silvestre)",
+        name: "Wild oat  (como que algo me falta)",
         emotions: [
-            "incertidumbre sobre la dirección de la vida",
-            "sensación de desperdiciar su potencial",
-            "insatisfacción profesional"
+            "Vacío existencial",
+            "crisis de los 30,40,50 ",
+            "ancianos",
+            "gente que siempre esta en cursos de algo",
+            "nada los llena",
+            "sentimiento de estancado",
+            "gente que no trabaja en lo que quiere"
         ],
-        description: "Wild Oat es para aquellos que no están seguros de la dirección que quieren tomar en la vida, que se sienten insatisfechos con su trabajo o que sienten que están desperdiciando su potencial."
+        description: "Incapacidad para decidir la vocación, no encuentran sentido a su vida.  Es buen en un diagnostico de demasiadas flores mejor dar este remedio."
     },
     {
-        name: "Clematis (Clemátide)",
+        name: "Clematis (ando como en la luna)",
         emotions: [
-            "soñar despierto",
-            "falta de atención",
-            "desconexión de la realidad"
+            "Gente que se evade del sufrimiento",
+            "cruda",
+            "desvelo",
+            "desmayos",
+            "estados de coma",
+            "desconexión o muerte de alguna parte del cuerpo extremidades u órganos",
+            "diabetes",
+            "esclerosis múltiple",
+            "parálisis facial o cerebral",
+            "autismo"
         ],
-        description: "Clematis es para aquellos que están soñando despiertos, que no están completamente presentes en la realidad. Es útil para aumentar la atención y la conexión con el presente."
+        description: "Para los que viven el la luna, desconectados del presente, viven en el futuro esperando tiempos mejores."
     },
     {
-        name: "Honeysuckle (Madreselva)",
+        name: "Honey suckle (me acuerdo cuando... El pasado se hace presente)",
         emotions: [
-            "nostalgia",
-            "vivir en el pasado",
-            "dificultad para adaptarse al presente"
+            "Gente que no acepta que el tiempo paso, gente que se estanca en su tiempo de juventud",
+            "cuando el pasado se hace presente atormentando",
+            "traumas del pasado",
+            "rupturas afectivas para dejarlas en el pasado",
+            "desapego",
+            "gente que extraña a sus muertos",
+            "gente que se siente culpable por los errores del pasado (junto a pine)"
         ],
-        description: "Honeysuckle es para aquellos que viven en el pasado, que sienten nostalgia y tienen dificultad para adaptarse al presente. Ayuda a aceptar el presente y mirar hacia el futuro."
+        description: "Gente que vive en el pasado, añorando, siempre hablan del pasado. Evita regresar al pasado o a acciones y relaciones del pasado. Recaidas, codependencia, cambios de rutina, cambios en general. "
     },
     {
-        name: "Wild Rose (Rosa Silvestre)",
+        name: "Wild rose  (ya me da lo mismo)",
         emotions: [
-            "apatía",
-            "resignación",
-            "falta de interés por la vida"
+            "No expresan sentimientos buenos ni malos",
+            "resignado a sufrir",
+            "depresión severa",
+            "bloqueos emocionales (protección contra sufrimiento)",
+            "evadir el presente para no afrontarlo",
+            "gente aparentemente fría "
         ],
-        description: "Wild Rose es para la apatía y la resignación, cuando una persona ha perdido interés por la vida y no hace esfuerzos para mejorar su situación. Ayuda a recuperar el interés y la motivación."
+        description: "Resignados a no luchar, no se quejan. Apáticos indiferentes todo les da igual."
     },
     {
-        name: "Olive (Olivo)",
+        name: "Olive (estoy agotado ya no puedo mas)",
         emotions: [
-            "agotamiento físico y mental",
-            "falta de energía",
-            "cansancio extremo"
+            "Después de: Exceso de esfuerzo físico o mental",
+            "exceso de sufrimiento",
+            "estrés",
+            "Adictos al trabajo (para que acepten que necesitan descanso)"
         ],
-        description: "Olive es para aquellos que están completamente agotados, tanto física como mentalmente, que han gastado toda su energía. Ayuda a restaurar la vitalidad y la fuerza."
+        description: "Agotamiento crónico, como sin pilas, agotamiento físico y mental."
     },
     {
-        name: "White Chestnut (Castaño de Indias)",
+        name: "White chestnut (no puedo dejar de pensar)",
         emotions: [
-            "pensamientos no deseados",
-            "preocupación constante",
-            "insomnio por la actividad mental"
+            "Angustia mental",
+            "ansiedad",
+            "culpas (junto con pine)",
+            "remordimientos (junto con pine)",
+            "sonidos agudos en los oídos",
+            "ataque de hipo",
+            "no poder dejar de pensar"
         ],
-        description: "White Chestnut es para aquellos que no pueden dejar de pensar en ciertas cosas, que tienen pensamientos no deseados y preocupaciones constantes. Ayuda a calmar la mente y a dormir mejor."
+        description: "Pensamientos recurrentes siempre negativos o angustiantes."
     },
     {
-        name: "Mustard (Mostaza)",
+        name: "Mustard (me siento tan triste)",
         emotions: [
-            "depresión sin causa conocida",
-            "tristeza profunda",
-            "oscuridad emocional"
+            "Tristeza explicable y no explicable",
+            "Tristeza que va y viene"
         ],
         description: "Mustard es para la depresión y la tristeza profunda que aparece sin una causa aparente. Ayuda a disipar la oscuridad emocional y a recuperar la alegría."
     },
     {
-        name: "Chestnut Bud (Brote de Castaño)",
+        name: "Chestnut Bud (tropecé de nuevo con la misma piedra)",
         emotions: [
-            "no aprender de los errores",
-            "repetir patrones negativos",
-            "falta de observación"
+            "Enfermedades crónicas",
+            "problemas de vista",
+            "problemas de digestión",
+            "enfermedades que regresan",
+            "adictos que recaen con honey suckle",
+            "niños con problemas de aprendizaje",
+            "entienden mal las cosas",
+            "regresar con la misma pareja después de ser maltratado",
+            "para los que demoran en aprender la lección",
+            "tics nerviosos (repetición de conducta negativa o dañina)"
         ],
-        description: "Chestnut Bud es para aquellos que no aprenden de sus errores y continúan repitiendo los mismos patrones negativos. Ayuda a tomar conciencia de los errores y a aprender de ellos."
+        description: "Para los que siempre repiten los mismos errores en su trabajo, pareja o vida en general: cualquier sentimiento o actitud que se repita. "
     },
     {
-        name: "Water Violet (Violeta de Agua)",
+        name: "Wáter violet (yo puedo solo)",
         emotions: [
-            "soledad",
-            "aislamiento",
-            "orgullo que lleva a la distancia"
+            "Se creen superiores que los demás",
+            "no compasivo nunca se pone en el lugar de los demás",
+            "no pide ayuda o favores",
+            "indiferentes",
+            "antisociales",
+            "autismo (junto con clematis y agrimoni)"
         ],
-        description: "Water Violet es para aquellos que se aíslan debido a su orgullo o sentido de superioridad, que prefieren estar solos. Ayuda a abrirse y conectarse con los demás."
+        description: "Orgullosos, indiferentes no siguen ordenes, no aceptan sus errores."
     },
     {
-        name: "Impatiens (Impaciencia)",
+        name: "Impatiens (como me desespera que)",
         emotions: [
-            "impaciencia",
-            "irritabilidad",
-            "tensión por la rapidez"
+            "Viven de prisa",
+            "quieren todo a su tiempo y manera",
+            "prefiere hacer todo solo para que sea como lo quiere exactamente",
+            "impaciente en todos los aspectos",
+            "todo le desespera",
+            "taquicardias",
+            "expresiones de estrés"
         ],
         description: "Impatiens es para la impaciencia y la irritabilidad, para aquellos que se frustran con la lentitud de los demás. Ayuda a desarrollar la paciencia y la comprensión."
     },
     {
-        name: "Heather (Brezo)",
+        name: "Heather (yo, yo, yo)",
         emotions: [
-            "autocompasión",
-            "necesidad de atención",
-            "hablar de sí mismo en exceso"
+            "Necesidad de llamar la atención y sobresalir",
+            "interrumpen para hablar de ellos mismos",
+            "personas estrafalarias",
+            "egoístas"
         ],
-        description: "Heather es para aquellos que se sienten solos y buscan atención constante, que hablan mucho de sí mismos. Ayuda a desarrollar la empatía y la capacidad de escuchar a los demás."
+        description: "Muy parecida a chicory con la diferencia de que heather es egocéntrico de si mismo victima aislado y chicory es egocéntrico  posesivo de los demás, metiche y chantajista; les gusta llamar la atención, solo hablan de ellos mismos"
     },
     {
-        name: "Agrimony (Agrimonia)",
+        name: "Agrimony (noo, si no pasa nada yo estoy bien)",
         emotions: [
-            "ansiedad oculta",
-            "preocupación detrás de una fachada alegre",
-            "dificultad para enfrentar conflictos"
+            "Parecen siempre felices",
+            "no expresa sus problemas los niega",
+            "se mantiene ocupado en eventos o fiestas",
+            "evaden el dolor",
+            "propensos a las adicciones",
+            "fiesteros descontrolados",
+            "excesivos en sexo, fiestas alcohol, riesgos",
+            "indiferentes",
+            "fríos",
+            "emociones reprimidas"
         ],
         description: "Agrimony es para aquellos que ocultan su ansiedad y preocupación detrás de una fachada alegre y despreocupada. Ayuda a enfrentar y expresar las emociones reales."
     },
     {
-        name: "Centaury (Centaurea)",
+        name: "Centaury (codependencia, dejar malos habitos, te ayudo, te compre, te traigo? Etc.)",
         emotions: [
             "debilidad de carácter",
             "sumisión",
             "dificultad para decir no"
         ],
-        description: "Centaury es para aquellos que son demasiado serviciales y no pueden decir no, que tienen una debilidad de carácter y son fácilmente influenciados por los demás. Ayuda a desarrollar la fuerza de voluntad y la independencia."
+        description: "Para los que siempre quieren servir  los demás para ser aceptados, ayuda contra la codependencia."
     },
     {
-        name: "Walnut (Nogal)",
+        name: "Walnut (si tu dices que si …. Pues si)",
         emotions: [
-            "protección contra influencias externas",
-            "adaptación a cambios",
-            "transiciones"
+            "Personas que cambian de opinión ante comentarios ajenos (dejar un trabajo, no comprar algo etc.)",
+            "les preocupa demasiado lo que opinen los demás",
+            "adaptación a algún cambio",
+            "pubertad",
+            "embarazo",
+            "menopausia",
+            "adaptación en cualquier cambio",
+            "hemorragias reglas abundantes",
+            "protección contra influencias extremas",
+            "influenciables",
+            "chantajeables"
         ],
-        description: "Walnut es para protegerse de influencias externas y para adaptarse a cambios y transiciones. Es útil en momentos de grandes cambios en la vida."
+        description: "Personas que dudan de si mismos y sus decisiones ante los comentarios y opiniones de los demás."
     },
     {
-        name: "Holly (Acebo)",
+        name: "Holly (lo odioo)",
         emotions: [
             "odio",
             "envidia",
             "celos",
-            "ira"
+            "ira",
+            "venganza",
+            "rencor",
+            "coraje",
+            "niños y animales agresivos",
+            "empleo de violencia física",
+            "gente golpeadora"
         ],
-        description: "Holly es para aquellos que experimentan emociones negativas intensas como odio, envidia, celos y ira. Ayuda a transformar estas emociones en amor y comprensión."
+        description: "Perdida de control con acción agresiva activa."
     },
     {
-        name: "Larch (Alerce)",
+        name: "Larch (no soy útil, no se si puedo)",
         emotions: [
-            "falta de confianza en uno mismo",
-            "miedo al fracaso",
-            "sentimiento de inferioridad"
+            "Sentimiento de inferioridad",
+            "baja autoestima",
+            "se sienten incapaz",
+            "se aferran a las cosas negativas que ya les pasaron",
+            "creen no estar listos o preparados"
         ],
         description: "Larch es para la falta de confianza en uno mismo y el miedo al fracaso. Ayuda a desarrollar la autoestima y la creencia en las propias capacidades."
     },
     {
-        name: "Pine (Pino)",
+        name: "Pine (es mi culpa, fui malo, me lo merezco)",
         emotions: [
-            "culpa",
-            "autorreproche",
-            "sentimientos de responsabilidad excesiva"
+            "Niños muy regañados por sus errores y no valorados sus logros",
+            "niños nerviosos se  culpables por equivocarse tanto",
+            "creen que deben castigarse",
+            "creen que no merecen ser felices",
+            "creen que deben hacerse responsables de demasiado",
+            "creen que merecen ser maltratados",
+            "buscan ser perfectos",
+            "se flagelan por los errores cometidos",
+            "sentimiento de culpabilidad sin razón",
+            "culpas oculta de otras vidas"
         ],
-        description: "Pine es para la culpa y el autorreproche, para aquellos que se sienten responsables de los errores y problemas de los demás. Ayuda a liberar la culpa y a aceptar los propios errores."
+        description: "Sentimiento de culpa, debe ser acompañada de chestnut bud."
     },
     {
-        name: "Elm (Olmo)",
+        name: "Elm (no puedo con todo)",
         emotions: [
-            "abrumado por la responsabilidad",
-            "duda temporal de capacidad",
-            "sensación de incapacidad"
+            "Demasiado responsables",
+            "perfeccionistas",
+            "controladores prefieren hacer todo ellos para asegurarse  que salga bien",
+            "se consideran imprescindibles",
+            "muy profesionales",
+            "se sienten culpables si descansan",
+            "se exigen demasiado",
+            "siempre están demasiado ocupados",
+            "obsesivos",
+            "ansiedad por que las cosas no salgan como quiere",
+            "no se adaptan a los cambios",
+            "siempre siguen las reglas al pie de la letra",
+            "tratan de demostrar a los demás lo buenos que son",
+            "no se permite equivocarse",
+            "dolores fuertes",
+            "esquizofrenia y psicosis (reorganiza la mente)"
         ],
-        description: "Elm es para aquellos que se sienten abrumados por sus responsabilidades y dudan temporalmente de su capacidad para cumplirlas. Ayuda a restaurar la confianza y la fortaleza."
+        description: "Para aquellos que hacen lo que deben pero se sienten muy atareados, no se organizan en el trabajo toman muchas responsabilidades a la ves, creen que su trabajo es muy difícil, es bueno combinarlo con pine y walnut."
     },
     {
-        name: "Sweet Chestnut (Castaño Dulce)",
+        name: "Sweet chestnut (ya no puedo mas)",
         emotions: [
-            "angustia extrema",
-            "desesperación profunda",
-            "sensación de haber llegado al límite"
+            "Duelo de muertos (Junto con rescate)",
+            "sufrimiento y angustia insoportable",
+            "cuando ya no hay fuerzas ni para llorar ni sufrir",
+            "muerte de familiares"
         ],
-        description: "Sweet Chestnut es para la angustia extrema y la desesperación profunda, para aquellos que sienten que han llegado al límite de su resistencia. Ayuda a encontrar luz en la oscuridad."
+        description: "Angustia y desesperación profunda."
     },
     {
-        name: "Star of Bethlehem (Estrella de Belén)",
+        name: "Star of bethlehmen (no por dios)",
         emotions: [
-            "shock",
-            "trauma",
-            "dolor"
+            "Malas noticias",
+            "muertes de seres queridos",
+            "sustos fuertes",
+            "situaciones traumáticas (violaciones, muertes, accidentes, maltratos, etc.)",
+            "mala situación económica angustiante",
+            "relaciones tormentosas de pareja",
+            "desempleo prolongado",
+            "golpes, heridas , torceduras, fracturas",
+            "traumas emocionales, psíquicos, metales",
+            "enfermedades que se resisten al tratamiento",
+            "cólicos de riñón o menstruales",
+            "rigidez muscular",
+            "antes y después  de una operación",
+            "antes de un examen prueba o entrevista que causa angustia",
+            "ayuda Reaparición de un talento olvidado"
         ],
-        description: "Star of Bethlehem es para el shock y el trauma, tanto recientes como antiguos. Ayuda a consolar y aliviar el dolor emocional y físico."
+        description: "Trauma post shock secuelas traumáticas consientes o inconscientes."
     },
     {
-        name: "Willow (Sauce)",
+        name: " Willow (por que a mi si no me lo merezco. Si yo estoy mal, ¿por qué los demás están bien?)",
         emotions: [
-            "resentimiento",
-            "amargura",
-            "autocompasión"
+            "Irritabilidad",
+            "mal humor",
+            "resentidos se quejan de su mala suerte",
+            "siente que la vida es injusta con el",
+            "no acepta su responsabilidad en lo que le ocurre u ocurrió",
+            "cree que la vida y todos le deben algo",
+            "huraño",
+            "depresivo",
+            "amargado",
+            "negativo",
+            "mezquino",
+            "desconfiado",
+            "desagradecido cree que todo lo merece como pago de la vida por lo mal que le va",
+            "mártir",
+            "envidioso de la felicidad de los demás",
+            "malvado",
+            "enojado con la vida",
+            "hipocondriaco",
+            "gastritis",
+            "problemas hepáticos y de la piel",
+            "enojados con dios",
+            "fuegos labiales",
+            "les gusta apagar la alegría de los demás ya que les produce envidia"
         ],
-        description: "Willow es para aquellos que sienten resentimiento y amargura, que creen que la vida ha sido injusta con ellos. Ayuda a superar la autocompasión y a recuperar una actitud positiva."
+        description: "Para otorgar el perdón, para quienes no aceptan lo que han vivido sin quejarse sienten resentimiento amargados, victimas, culpan a los demás de lo que les ocurre."
     },
     {
-        name: "Oak (Roble)",
+        name: "Oak (aunque este cansado)",
         emotions: [
-            "esfuerzo constante sin descanso",
-            "fatiga por sobreesfuerzo",
-            "falta de relajación"
+            "Perfeccionista medio",
+            "no descansa",
+            "teme mostrarse vulnerable o débil",
+            "no obedece las señales de su cuerpo de estar agotado",
+            "se exige demasiado",
+            "detestan reconocer sus errores",
+            "demasiado organizados",
+            "rutina perfecta",
+            "quiere ser el papa o mama amigo o trabajador perfecta la persona perfecta",
+            "su trabajo es su vida",
+            "estrictos",
+            "propensos a infartos embolias o depresiones contracturas musculares",
+            "cree que cualquier tipo de descanso diversión o placer carece de importancia"
         ],
-        description: "Oak es para aquellos que trabajan incansablemente sin descanso, que continúan esforzándose a pesar de la fatiga. Ayuda a reconocer la necesidad de descanso y a encontrar un equilibrio."
+        description: "Para aquellos que se esfuerzan y luchan aunque estén cansados o ya no pueda mas. Se siente demasiado responsable."
     },
     {
-        name: "Crab Apple (Manzano Silvestre)",
+        name: "Crab Apple (limpiezas profundas)",
         emotions: [
-            "sensación de impureza",
-            "obsesión por detalles",
-            "aversiones físicas"
+            "Culpa mezclada con vergüenza",
+            "violaciones",
+            "sensación de suciedad interna",
+            "represión sexual",
+            "bilimia",
+            "sentimiento de culpa por creer que se hizo algo indebido o sucio",
+            "sentimiento de inferioridad por ser diferente",
+            "ayuda a aceptar la imagen física propia",
+            "obesidad",
+            "malformación",
+            "acné",
+            "Sida (enfermedades venéreas)",
+            "extremistas en la limpieza física y del hogar",
+            "temor al cáncer",
+            "enfermedades infecciosas",
+            "eliminar un medicamento o droga del cuerpo",
+            "limpia la mente",
+            "limpiarse de algún vicio"
         ],
-        description: "Crab Apple es para aquellos que sienten una sensación de impureza o que están obsesionados con detalles y aversiones físicas. Ayuda a aceptar y purificar el cuerpo y la mente."
+        description: "Sentimiento de estar sucio mentalmente, tener asco o vergüenza de si mismo. Sentimiento provocado por una acción des honrosa ayuda a limpiar a nivel físico mental espiritual y emocional "
     },
     {
-        name: "Chicory (Achicoria)",
+        name: "Chicory (si yo soy tan bueno y nadie me valora lo que hago por ellos)",
         emotions: [
-            "posesividad",
-            "manipulación emocional",
-            "amor egoísta"
+            "Egoísmo",
+            "reclaman atención",
+            "chantajistas",
+            "victimas",
+            "metiches",
+            "codependientes",
+            "niños caprichosos",
+            "miedo a la soledad",
+            "autocompasión",
+            "culpan a los demás",
+            "manipuladores",
+            "emocional y explosivo",
+            "quiere todo a su manera",
+            "negación de sentimientos negativos",
+            "criticón quejumbroso de los demás",
+            "controlador",
+            "la suegra metiche y perfecta",
+            "don perfecto",
+            "dan para reclamar y echar en cara",
+            "amenazas de suicidio",
+            "hipocondriacos",
+            "posesivos",
+            "novio/a psicópata",
+            "esposos controladores económica o emocionalmente",
+            "varices sinusitis resfriados celulitis estreñimiento",
+            "desapego afectivo"
         ],
-        description: "Chicory es para aquellos que son posesivos y manipuladores emocionalmente, que muestran un amor egoísta. Ayuda a desarrollar el amor incondicional y el desinterés."
+        description: "Metiches en la vida de los demás, demasiado serviciales esperando algo a cambio, posesivos chantajistas."
     },
     {
-        name: "Vervain (Verbena)",
+        name: "Vervain (yo encontré el camino síganme)", 
         emotions: [
-            "exceso de entusiasmo",
-            "fanatismo",
-            "tensión por la pasión"
+            "Se creen en el camino correcto",
+            "antisocial",
+            "viven al limite",
+            "juzgan",
+            "intolerancia a la frustración",
+            "intolerantes a reglas o limites",
+            "extremistas",
+            "quiere cambiar a los demás",
+            "desconfiado",
+            "escépticos",
+            "inflamación aguda",
+            "fiebre",
+            "erupciones",
+            "sofocos",
+            "comezón",
+            "contracturas agudas",
+            "vine (tiranos autoritarios)",
+            "frustración por que los demás no son como ellos"
         ],
-        description: "Vervain es para aquellos que tienen un exceso de entusiasmo y que pueden ser fanáticos o tensos por su pasión. Ayuda a moderar el entusiasmo y a encontrar la calma."
+        description: "Manifestación máxima y exagerada de algo. Fanáticos religiosos, tratan de convencer a los demás arrastran a los demás a sus creencias, se creen dueños de la única verdad."
     },
     {
-        name: "Vine (Vid)",
+        name: "Vine (por que nadie es tan bueno como yo)",
         emotions: [
-            "dominancia",
-            "autoritarismo",
-            "ambición excesiva"
+            "Ególatras",
+            "necios",
+            "no aceptan tus errores",
+            "aprovechados del débil",
+            "prepotentes",
+            "orgullosos",
+            "burlescos",
+            "les gusta humillar",
+            "niños que práctican bullying",
+            "controladores",
+            "celosos",
+            "golpeadores",
+            "rígidos",
+            "abscesos",
+            "quistes inflamatorios",
+            "relajante muscular",
+            "disfunción eréctil",
+            "hipertensión arterial"
         ],
-        description: "Vine es para aquellos que son dominantes y autoritarios, que tienen una ambición excesiva. Ayuda a desarrollar el liderazgo positivo y la compasión."
+        description: "Creen que son perfectos que los demás deberían hacer lo mismo que ellos. No tienen conciencia emocional"
     },
     {
-        name: "Beech (Haya)",
+        name: "Beech (todos me tienen envidia)",
         emotions: [
-            "intolerancia",
-            "crítica constante",
-            "falta de comprensión"
+            "Incomprensivos",
+            "duros",
+            "racistas",
+            "elitistas",
+            "humillantes",
+            "egocéntricos",
+            "criticón",
+            "se cree más que los demás",
+            "jefes explotadores",
+            "insensibles",
+            "sabelotodo",
+            "falta de humildad",
+            "no acepta sus errores",
+            "rechazan todo aquello a lo que no se adaptan",
+            "trasplantes (para evitar el rechazo al nuevo órgano)",
+            "tos",
+            "rinitis",
+            "irritación en la piel",
+            "quimioterapias"
         ],
-        description: "Beech es para aquellos que son intolerantes y críticos, que tienen dificultad para comprender a los demás. Ayuda a desarrollar la tolerancia y la empatía."
+        description: "(Rechazo a lo distinto a el) creídos perfeccionistas intolerantes."
     },
     {
-        name: "Rock Water (Agua de Roca)",
+        name: "Rock Water (tengo que hacerlo mejor)",
         emotions: [
-            "rigidez",
-            "autodisciplina extrema",
-            "perfeccionismo"
+            "Incapacidad para disfrutar la vida",
+            "se sienten culpables",
+            "autocríticos",
+            "se exigen de más",
+            "creen que podrían ser siempre mejores",
+            "creen que lo que hacen no fue suficiente"
         ],
-        description: "Rock Water es para aquellos que son muy rígidos y que tienen una autodisciplina extrema, que buscan la perfección. Ayuda a ser más flexibles y a aceptar la imperfección."
+        description: "Para los que son demasiado exigentes consigo mismos"
+    },
+    {
+        name:"Rescate",
+        emotions: [
+            "Estados de shock",
+            "emergencia",
+            "trauma"
+        ],
+        description:"n/a"
+    },
+    {
+        name:"Hexa remei",
+        emotions: [
+            "Rescate con walnut"
+        ],
+        description:"Emergencias de adaptación para disminuir el sufrimiento y sus secuelas"
+    },
+    {
+        name:"Hepta remei",
+        emotions: [
+            "Rescate-walnut-sweet chestnut"
+        ],
+        description:"Angustia mas profunda."
+    },
+    {
+        name:"Tetra remei",
+        emotions: [
+            "Res-wal-sweet ch- elm"
+        ],
+        description:"Ataques de pánico."
     }
 ];
 
@@ -365,7 +643,7 @@ function renderFlowers(flowers) {
         flowerName.textContent = flower.name;
 
         const flowerEmotions = document.createElement('p');
-        flowerEmotions.textContent = `Emociones: ${flower.emotions.join(', ')}`;
+        flowerEmotions.textContent = `Características: ${flower.emotions.join(', ')}`;
 
         const flowerDescription = document.createElement('p');
         flowerDescription.textContent = `Descripción: ${flower.description}`;
